@@ -32,7 +32,7 @@ with open("theater.txt", "w", encoding="utf-8") as f:
             f"День недели: {r_weekday[i]}\n"
             f"Время: {r_time[i]}\n"
             f"Жанр: {r_genre[i]}\n"
-            f"Возрастная категория: {r_age[i]}\n"
+            f"{r_age[i]}\n"
             f"Ссылка: {url + r_link[i]}\n"
             f"Цена: {r_price[i].strip()}\n"
             f"Купить: {url + r_ticket_link[i]}\n\n"
